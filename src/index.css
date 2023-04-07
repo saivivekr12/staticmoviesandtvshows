@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+:root{
+  --red:##fc4747;
+  --dark-blue:#10141e;
+  --greyish-blue:#5a698f;
+  --semi-dark-blue:#161d2f;
+  --white:#fff
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Outfit', sans-serif !important;
+  background-color: var(--dark-blue);
+}
