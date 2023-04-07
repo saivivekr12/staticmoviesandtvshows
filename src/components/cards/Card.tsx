@@ -4,7 +4,6 @@ import { ReactComponent as CategoryMovieIcon } from "../../assets/icon-category-
 import { ReactComponent as CategoryTvIcon } from "../../assets/icon-category-tv.svg";
 import { Box } from "@mui/material";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
-import React from "react";
 
 const CardContainer: any = styled("div")((props: any) => {
   return {

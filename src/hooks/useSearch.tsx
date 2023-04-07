@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { CardProps } from "../components/cards/Card";
 import { BackendData, MoviesContext } from "../context/MoviesContext";
 
@@ -8,11 +8,10 @@ const useSearch = (data: BackendData[]) => {
   const {
     data: contextData,
     setData,
-    message,
     setPosition,
     setMessage,
     open,
-    setOpen, position
+    setOpen,
   } = useContext(MoviesContext);
 
   const [filteredData, setFilteredData] = useState<BackendData[]>(

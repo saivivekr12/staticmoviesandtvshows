@@ -1,8 +1,7 @@
-import styled from "@emotion/styled";
-import React from "react";
+import { styled } from "@mui/material/styles";
 import { ReactComponent as ICON } from "../../assets/logo.svg";
 
-const Layout = styled("div")({
+const Layout = styled("div")((props: any) =>({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
@@ -11,6 +10,9 @@ const Layout = styled("div")({
     width: "400px",
     background: "#161d2f",
     padding: "32px",
+    [props.theme.breakpoints.down("sm")]: {
+    maxWidth:"300px"
+    },
   },
   "& .icon": {
     display: "flex",
@@ -18,7 +20,7 @@ const Layout = styled("div")({
     width: "100%",
     marginBottom: "84px",
   },
-});
+}));
 
 const CustomLayout = ({ children }: any) => {
   return (

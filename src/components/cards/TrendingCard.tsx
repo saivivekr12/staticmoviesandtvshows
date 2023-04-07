@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { ReactComponent as CategoryTvIcon } from "../../assets/icon-category-tv.svg";
-import { Box, CardProps } from "@mui/material";
+import { Box} from "@mui/material";
 import { ReactComponent as BookmarkIconFull } from "../../assets/icon-bookmark-full.svg";
 import { ReactComponent as CategoryMovieIcon } from "../../assets/icon-category-movie.svg";
 

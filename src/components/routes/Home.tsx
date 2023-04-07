@@ -7,7 +7,6 @@ import SearchPage from "../../pages/SearchPage";
 import { MoviesContext } from "../../context/MoviesContext";
 import Lists from "../Lists";
 import useSearch from "../../hooks/useSearch";
-import { UserContext } from "../../context/userContext";
 
 export const CustomHeading: any = styled(Typography)({
   fontSize: "32px",

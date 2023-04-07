@@ -6,7 +6,7 @@ import Search from "../Search";
 import SearchPage from "../../pages/SearchPage";
 import { CustomHeading } from "./Home";
 import Lists from "../Lists";
-import { Box, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 
 const Bookmarked = () => {
   const { data } = useContext(MoviesContext);

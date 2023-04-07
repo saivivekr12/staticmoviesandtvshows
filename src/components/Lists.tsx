@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { BackendData, Trending } from "../context/MoviesContext";
-import Card, { CardProps } from "./cards/Card";
+import Card  from "./cards/Card";
 import TrendingCard from "./cards/TrendingCard";
 
 export type ListData = {
